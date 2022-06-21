@@ -6,6 +6,7 @@ export default function MessageList({ token, identity, conversationSid }) {
 	const [loading, setLoading] = useState(false);
 	const [messages, setMessages] = useState([]);
 	const [client, conversation] = useClient({ token, identity, conversationSid });
+	console.log(client, conversation)
 
 	useEffect(() => {
 		const getMessages = async () => {
@@ -27,7 +28,8 @@ export default function MessageList({ token, identity, conversationSid }) {
 	const sendMessage = async (e) => {
 		setLoading(true);
 		e.preventDefault();
-		await conversation.sendMessage(message);
+		console.log(conversation);
+		await conversation?.sendMessage(message);
 		setMessage("");
 		setLoading(false);
 	};
