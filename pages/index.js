@@ -26,6 +26,7 @@ export default function Home() {
 		setToken('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2VlMzNlNTYxYmY5NzEyYjMzOGRjYTc3YzY1NDRlZmQ2LTE2NTU3OTU0OTUiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJ1c2VyQGV4YW1wbGUuY29tIiwiY2hhdCI6eyJzZXJ2aWNlX3NpZCI6IjRiNTAzYjkyLThiNTUtNDZlMS1iZDkzLTU2NmUzYzgyYjcyMCJ9fSwiaWF0IjoxNjU1Nzk1NDk1LCJleHAiOjE2NTU3OTkwOTUsImlzcyI6IlNLZWUzM2U1NjFiZjk3MTJiMzM4ZGNhNzdjNjU0NGVmZDYiLCJzdWIiOiJBQzU0Nzk2OTc0OTZjN2MxZmJiYTBmMWY2MTZiMWNjYTMyIn0.wVolsaO0eKVddZjBf5jeBseIib43kUfi9hnmkcf3HwA');
 
 		setLoading(false);
+		// This is for the edit for related to the changes of the website
 	};
 
 	return (
